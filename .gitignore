@@ -1,0 +1,46 @@
+# This .gitignore file is based on Unity's recommended setup.
+
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Memory captures and crash reports
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset meta data should only be ignored for generated files
+!/[Aa]ssets/**/*.meta
+!/[Pp]ackages/**/*.meta
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity generated files
+sysinfo.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JetBrains plugin
+Assets/Plugins/Editor/JetBrains*
